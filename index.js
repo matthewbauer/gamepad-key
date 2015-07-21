@@ -2,7 +2,7 @@ export default class {
   constructor (win, keys) {
     this.keys = keys
     this.win = win
-    this.id = 'gamepad-key'
+    this.id = 'keypad'
 
     this.buttons = []
     for (var key in this.keys) {
