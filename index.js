@@ -3,6 +3,7 @@ export default class {
     this.keys = keys
     this.win = win
     this.id = 'keypad'
+    this.mapping = 'standard'
 
     this.buttons = []
     for (var key in this.keys) {
