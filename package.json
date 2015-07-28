@@ -1,6 +1,5 @@
 {
   "name": "keypad",
-  "version": "0.0.1",
   "description": "Create a GamePad API controller from some key bindings.",
   "license": "MIT",
   "repository": "matthewbauer/gamepad-key",
