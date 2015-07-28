@@ -14,9 +14,9 @@ export default class {
       if (event.which in this.keys) {
         let pressed
         if (event.type === 'keyup') {
-          pressed = true
-        } else if (event.type === 'keydown') {
           pressed = false
+        } else if (event.type === 'keydown') {
+          pressed = true
         }
         this.buttons[this.keys[event.which]].pressed = pressed
         this.timestamp = event.timeStamp
